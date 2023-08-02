@@ -5,5 +5,8 @@
     width: 235px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4, 25%); /*quadro colunas cada uma com 25% do tamanho da div */
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px; /* a primeira linha tem 1fr que é o resto do tamanho da div e as outras linhas tem tamanho fixo para cada uma*/
+    
 }
