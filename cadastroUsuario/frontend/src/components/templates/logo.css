@@ -1,0 +1,13 @@
+.logo {
+    background-color: var(--bg-dark);
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    padding: 0px 35px;
+    width: 100%;
+    
+}
